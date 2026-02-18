@@ -15,7 +15,7 @@
         "slide_JKbCr7": {
           "type": "slide",
           "settings": {
-            "slide_text": "",
+            "slide_text": "Slide 1",
             "link_text": "Ver más",
             "link_url": "https://swiperjs.com/get-started#initialize-swiper"
           }

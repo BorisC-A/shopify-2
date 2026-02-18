@@ -1,12 +1,11 @@
-<h1>{{section.settings.slide_text}}</h1>
+{% for block in section.blocks %}
+      <h1>{{ block.settings.slide_text }}</h1>
+    {% endfor %}
 <!-- Slider main container -->
 <div class="swiper">
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
-    {% for block in section.blocks %}
-      {{ block.settings }}
-    {% endfor %}
 
     <div class="swiper-slide">{{ section.settings.text }}</div>
     <div class="swiper-slide">Slide 2</div>

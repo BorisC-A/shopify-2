@@ -1,6 +1,6 @@
 {{ 'section.custom-slide.css' | asset_url | stylesheet_tag }}
 <!-- Slider main container -->
-<div class="swiper">
+<div class="swiper" id="swiper-{{ section.id }}">
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
@@ -13,10 +13,6 @@
         <img src="{{ block.settings.slide_image | image_url }}" alt="slide-image">
     </div>
   {% endfor %}
-    <div class="swiper-slide">{{ section.settings.text }}</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
-    ...
   </div>
   <!-- If we need pagination -->
   <div class="swiper-pagination"></div>

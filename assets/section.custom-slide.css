@@ -5,4 +5,6 @@
 .swiper .swiper-slide a{
     background-color: black;
     color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
 }

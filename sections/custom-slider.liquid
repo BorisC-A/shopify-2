@@ -41,13 +41,25 @@
         "name":"Custom slider - banner",
         "settings":[
             {
-            "type": "text",
-            "id": "text",
-            "label": "Esto es el label",
-            "default": "Esto es texto por defecto",
-            "info": "Info sobre esta setting",
-            "placeholder": "Esto es el placeholder"
+                "type": "text",
+                "id": "text",
+                "label": "Esto es el label",
+                "default": "Esto es texto por defecto",
+                "info": "Info sobre esta setting",
+                "placeholder": "Esto es el placeholder"
             },
+        ],
+        "blocks": [
+            { "type": "slide",
+              "name": "Slider",
+              "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "slide_image",
+                    "label": "Selecciona tu imagen",
+                }
+              ]  
+            }
         ]
     }
 {% endschema %}

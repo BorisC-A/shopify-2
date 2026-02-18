@@ -25,6 +25,7 @@
     {% render 'meta-tags' %}
 
     {{ content_for_header }}
+    <script src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
   </head>
 
   <body>
@@ -33,6 +34,5 @@
     {{ content_for_layout }}
 
     {% sections 'footer-group' %}
-    <script src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
   </body>
 </html>

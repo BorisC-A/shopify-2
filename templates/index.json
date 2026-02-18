@@ -16,6 +16,7 @@
           "type": "slide",
           "settings": {
             "slide_text": "Slide 1",
+            "slide_image": "shopify://shop_images/iphone-detects-qr-code.jpg",
             "link_text": "Ver más",
             "link_url": "https://swiperjs.com/get-started#initialize-swiper"
           }
@@ -24,6 +25,7 @@
           "type": "slide",
           "settings": {
             "slide_text": "Slide 2",
+            "slide_image": "shopify://shop_images/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
             "link_text": "Ver más",
             "link_url": ""
           }
@@ -32,6 +34,7 @@
           "type": "slide",
           "settings": {
             "slide_text": "Slide 3",
+            "slide_image": "shopify://shop_images/camera-looks-down-on-wooden-table-with-two-bao-buns.jpg",
             "link_text": "Ver más",
             "link_url": ""
           }

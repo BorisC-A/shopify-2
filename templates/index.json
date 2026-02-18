@@ -12,6 +12,22 @@
     "slider-banner": {
       "type": "custom-slider",
       "blocks": {
+        "slide_QrzKE7": {
+          "type": "slide",
+          "settings": {
+            "slide_text": "Slide 3",
+            "link_text": "Ver más",
+            "link_url": ""
+          }
+        },
+        "slide_6LD4jN": {
+          "type": "slide",
+          "settings": {
+            "slide_text": "Slide 2",
+            "link_text": "Ver más",
+            "link_url": ""
+          }
+        },
         "slide_JKbCr7": {
           "type": "slide",
           "settings": {
@@ -22,6 +38,8 @@
         }
       },
       "block_order": [
+        "slide_QrzKE7",
+        "slide_6LD4jN",
         "slide_JKbCr7"
       ],
       "settings": {

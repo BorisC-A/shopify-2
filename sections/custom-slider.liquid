@@ -9,7 +9,7 @@
             <h2>{{ block.settings.slide_text }}</h2>
             <a href="{{ block.settings.link_url }}"> {{ block.settings.link_text }}</a>
         </article>
-        <img src="" alt="slide-image">
+        <img src="{{ block.settings.slide_image | image_url }}" alt="slide-image">
     </div>
   {% endfor %}
     <div class="swiper-slide">{{ section.settings.text }}</div>

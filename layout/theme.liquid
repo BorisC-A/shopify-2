@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ request.locale.iso_code }}">
   <head>
+    <script src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
     {% # Inlined CSS Variables %}
     {% render 'css-variables' %}
 
@@ -25,7 +26,6 @@
     {% render 'meta-tags' %}
 
     {{ content_for_header }}
-    <script src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
   </head>
 
   <body>

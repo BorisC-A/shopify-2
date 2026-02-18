@@ -20,7 +20,7 @@
 <script>
     const swiper = new Swiper('.swiper', {
   // Optional parameters
-  direction: 'vertical',
+  direction: 'horizontal',
   loop: true,
 
   // If we need pagination
@@ -35,3 +35,19 @@
   },
 });
 </script>
+
+{% schema %}
+    {
+        "name":"Custom slider - banner",
+        "settings":[
+            {
+            "type": "text",
+            "id": "text",
+            "label": "Esto es el label",
+            "default": "Esto es texto por defecto",
+            "info": "Info sobre esta setting",
+            "placeholder": "Esto es el placeholder"
+            },
+        ]
+    }
+{% endschema %}

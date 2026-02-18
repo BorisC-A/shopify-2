@@ -9,9 +9,12 @@
  */
 {
   "sections": {
-
+    "slider-banner": {
+      "type": "custom-slider",
+      "settings": {}
+    }
   },
   "order": [
-  
+    "slider-banner"
   ]
 }

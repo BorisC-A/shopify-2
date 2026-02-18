@@ -12,12 +12,12 @@
     "slider-banner": {
       "type": "custom-slider",
       "blocks": {
-        "slide_QrzKE7": {
+        "slide_JKbCr7": {
           "type": "slide",
           "settings": {
-            "slide_text": "Slide 3",
+            "slide_text": "Slide 1",
             "link_text": "Ver más",
-            "link_url": ""
+            "link_url": "https://swiperjs.com/get-started#initialize-swiper"
           }
         },
         "slide_6LD4jN": {
@@ -28,19 +28,19 @@
             "link_url": ""
           }
         },
-        "slide_JKbCr7": {
+        "slide_QrzKE7": {
           "type": "slide",
           "settings": {
-            "slide_text": "Slide 1",
+            "slide_text": "Slide 3",
             "link_text": "Ver más",
-            "link_url": "https://swiperjs.com/get-started#initialize-swiper"
+            "link_url": ""
           }
         }
       },
       "block_order": [
-        "slide_QrzKE7",
+        "slide_JKbCr7",
         "slide_6LD4jN",
-        "slide_JKbCr7"
+        "slide_QrzKE7"
       ],
       "settings": {
         "text": "Esto es texto por defecto"

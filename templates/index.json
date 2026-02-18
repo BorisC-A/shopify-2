@@ -11,7 +11,22 @@
   "sections": {
     "slider-banner": {
       "type": "custom-slider",
-      "settings": {}
+      "blocks": {
+        "slide_JKbCr7": {
+          "type": "slide",
+          "settings": {
+            "slide_text": "",
+            "link_text": "Ver más",
+            "link_url": "https://swiperjs.com/get-started#initialize-swiper"
+          }
+        }
+      },
+      "block_order": [
+        "slide_JKbCr7"
+      ],
+      "settings": {
+        "text": "Esto es texto por defecto"
+      }
     }
   },
   "order": [
